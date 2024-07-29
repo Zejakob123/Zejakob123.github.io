@@ -1,6 +1,6 @@
 import AboutMe from "./homepage/AboutMe";
-import Projects from "./homepage/Project";
-import Contacts from "./homepage/Contact";
+import Projects from "./homepage/Projects";
+import Skills from "./homepage/Skills";
 import { useState, useEffect } from "react";
 
 function Main(){
@@ -9,6 +9,7 @@ function Main(){
         <>
             <AboutMe />
             <Projects />
+            <Skills />
         </>
     );
 }

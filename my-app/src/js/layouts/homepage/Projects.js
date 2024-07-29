@@ -124,7 +124,7 @@ function Projects() {
                     <h2>Project:</h2>
                 </div>
                 <div
-                    className="col-lg-9 d-flex flex-wrap justify-content-center align-items-stretch"
+                    className="col-lg-9 d-flex flex-wrap justify-content-start align-items-stretch"
                 >
                     {projectData.project.map((info, index) => {
                         return <ProjectCard carouselID={"carousel-" + index} projectInfo={info} />

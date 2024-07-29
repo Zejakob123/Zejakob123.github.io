@@ -26,11 +26,11 @@ function AboutMe() {
     return (
         <>
             <div id="about" className="row d-flex pt-5 d-flex justify-content-center aboutmeview gap-4 bg-section-1">
-                <div className="col-lg-3 col-md-4 col-sm-6 col-7 py-2 px-4 d-flex flex-column justify-content-center">
+                <div className="col-lg-3 col-md-6 col-sm-7 col-7 py-2 px-4 d-flex flex-column justify-content-center">
                     <img className="rounded-pill img-fluid w-100"
                         src={window.location.origin + "/pic_wh.jpg"} alt="Wee Hong" />
                 </div>
-                <div className="col-lg-3 col-md-4 col-sm-6 py-2 px-4 d-flex flex-column justify-content-center">
+                <div className="col-lg-3 col-md-auto col-sm-auto py-2 px-4 d-flex flex-column justify-content-center border">
                     <div>
                         <h1>Hi. I'm <strong>Leong Wee Hong</strong>.</h1>
                         <h5>Software Engineering | Web Development | Mobile Development | Backend Development</h5>
