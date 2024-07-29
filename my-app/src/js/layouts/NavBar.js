@@ -19,7 +19,10 @@ export default function NavBar(){
                             <a className="nav-link" href="#project">Projects</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#contact">Contact</a>
+                            <a className="nav-link" href="#skill">Skills</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link" href="#award">Awards</a>
                         </li>
                     </ul>
                 </div>

@@ -57,9 +57,7 @@ footer {
 .carousel-control-prev , .carousel-indicators {
     filter: invert(100%);
 }
-/* Set container-fluid Maximum Width */
-@media (min-width: 1920px) {
-    .container-fluid {
-        max-width: 1920px !important;
-    }
+
+.page-content {
+    box-sizing: border-box;
 }

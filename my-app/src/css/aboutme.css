@@ -1,0 +1,18 @@
+/* styles.css */
+.aboutmeview {
+    height: calc(100vh - 48px); /* Adjust 48px to your navbar's height */
+}
+
+.bg-green {
+    background-color: green;
+}
+.bg-black {
+    background-color: black;
+}
+.bg-blue-dark {
+    background-color: darkblue;
+}
+
+.bg-section-1 {
+    background-color: #DAE0F2;
+}

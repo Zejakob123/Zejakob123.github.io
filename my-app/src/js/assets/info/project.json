@@ -1,79 +1,135 @@
 {
-    "project":[
+    "project": [
+        {
+            "title": "The AI-Enhanced Fish Recognition for eNelayan Marketplace Platform",
+            "sdate": "Nov 2023",
+            "edate": "June 2024",
+            "description": "A fishery product marketplace that provides a platform for fishermen to sell their fishery products.",
+            "responsible": [
+                "Design and develop a hybrid mobile app that is compatible to Android and IOS",
+                "Implement RESTful API backend system on Laravel and use MySQL as a database.",
+                "Design and implement fishery image product search by using Google Vision Product Search.",
+                "Design the database schema that align to the fishery product marketplace business model."
+            ],
+            "image": [
+                {
+                    "src": "./img/project/Enelayan/1.png",
+                    "subject": "",
+                    "description": ""
+                },
+                {
+                    "src": "./img/project/Enelayan/2.png",
+                    "subject": "",
+                    "description": ""
+                },
+                {
+                    "src": "./img/project/Enelayan/3.png",
+                    "subject": "",
+                    "description": ""
+                },
+                {
+                    "src": "./img/project/Enelayan/4.png",
+                    "subject": "",
+                    "description": ""
+                },
+                {
+                    "src": "./img/project/Enelayan/5.png",
+                    "subject": "",
+                    "description": ""
+                },
+                {
+                    "src": "./img/project/Enelayan/6.png",
+                    "subject": "",
+                    "description": ""
+                },
+                {
+                    "src": "./img/project/Enelayan/7.png",
+                    "subject": "",
+                    "description": ""
+                }
+            ]
+        },
         {
             "title": "UniFlea",
             "sdate": "October 2022",
             "edate": "January 2023",
             "description": "A ecommerce web application that providing a platform for university user to easy to sell their pre-loved items. This is a project built with the technique of Laravel, Vue JS and Vuetify. The project built is in C2C business mode.",
-            "responsible": "-UserDashboard\n-Report User\n-User Order Tracking\n-Item Sell Tracking\n-User Profile\n-Item Sale Details", 
+            "responsible": [
+                "Design the database schema and implement the database migration and seeder",
+                "Implement MVC development pattern on Laravel and use MySQL as a database.",
+                "Implement InertiaJS, Vue and Vuetify for the frontend development",
+                "Design and develop the modules of UserDashboard, Report User, User Order Tracking, Item Sell Tracking, User Profile and Item Sale Details"
+            ],
             "image": [
                 {
-                    "src": "./img/UniFlea/1.jpg",
+                    "src": "./img/project/UniFlea/1.jpg",
                     "subject": "",
                     "description": ""
                 },
                 {
-                    "src": "./img/UniFlea/2.jpg",
+                    "src": "./img/project/UniFlea/2.jpg",
                     "subject": "",
                     "description": ""
                 },
                 {
-                    "src": "./img/UniFlea/3.jpg",
+                    "src": "./img/project/UniFlea/3.jpg",
                     "subject": "",
                     "description": ""
                 },
                 {
-                    "src": "./img/UniFlea/4.jpg",
+                    "src": "./img/project/UniFlea/4.jpg",
                     "subject": "",
                     "description": ""
                 },
                 {
-                    "src": "./img/UniFlea/5.jpg",
+                    "src": "./img/project/UniFlea/5.jpg",
                     "subject": "",
                     "description": ""
                 },
                 {
-                    "src": "./img/UniFlea/6.jpg",
+                    "src": "./img/project/UniFlea/6.jpg",
                     "subject": "",
                     "description": ""
                 }
             ]
-            
         },
         {
             "title": "MapTest",
             "sdate": "Sep 2021",
             "edate": "October 2021",
-            "description": "A self-taught android application integrated with Huawei Mobile Service (HMS) Software Development Kit (SDK) such as map kit and site kit. It is an Android application that assists the users in daily life which help user to record their map searching record into the local storage.",
-            "responsible": "-Search location\n-Set Record\n-Record History", 
+            "description": "A self-taught android application that assists the users in daily life which help user to record their map searching record into the local storage.",
+            "responsible": [
+                "Implement mobile development on Android Studio with Java and use SQLite as local database.",
+                "Huawei Mobile Service (HMS) SDK Map kit and Site kit integration",
+                "Design and develop the modules of Search location, Set Record and Record History"
+            ],
             "image": [
                 {
-                    "src": "./img/MapTest/1.jpg",
+                    "src": "./img/project/MapTest/1.jpg",
                     "subject": "",
                     "description": ""
                 },
                 {
-                    "src": "./img/MapTest/2.jpg",
+                    "src": "./img/project/MapTest/2.jpg",
                     "subject": "",
                     "description": ""
                 },
                 {
-                    "src": "./img/MapTest/3.jpg",
+                    "src": "./img/project/MapTest/3.jpg",
                     "subject": "",
                     "description": ""
                 },
                 {
-                    "src": "./img/MapTest/4.jpg",
+                    "src": "./img/project/MapTest/4.jpg",
                     "subject": "",
                     "description": ""
                 },
                 {
-                    "src": "./img/MapTest/5.jpg",
+                    "src": "./img/project/MapTest/5.jpg",
                     "subject": "",
                     "description": ""
                 }
             ]
-            
         }
     ]
 }

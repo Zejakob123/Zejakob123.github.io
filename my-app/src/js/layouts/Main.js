@@ -9,7 +9,6 @@ function Main(){
         <>
             <AboutMe />
             <Projects />
-            <Contacts />
         </>
     );
 }
