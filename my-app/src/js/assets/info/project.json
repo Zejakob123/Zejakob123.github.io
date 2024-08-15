@@ -50,6 +50,49 @@
             ]
         },
         {
+            "title": "OpenHub",
+            "sdate": "Oct 2023",
+            "edate": "Oct 2023",
+            "description": "A marketplace-based web application that provides a innovative way for open scientific environment to bridge a connection among the potential collaborator, open-source project and project creators. A hackathon project that only involves frontend development.",
+            "responsible": [
+                "Design and develop the web frontend.",
+                "Leading the team to complete the project within the timeline.",
+                "Propose the project idea that aligned to feasible solution for the open scientific environment."
+            ],
+            "image": [
+                {
+                    "src": "./img/project/Openhub/1.png",
+                    "subject": "",
+                    "description": ""
+                },
+                {
+                    "src": "./img/project/Openhub/2.png",
+                    "subject": "",
+                    "description": ""
+                },
+                {
+                    "src": "./img/project/Openhub/3.png",
+                    "subject": "",
+                    "description": ""
+                },
+                {
+                    "src": "./img/project/Openhub/4.png",
+                    "subject": "",
+                    "description": ""
+                },
+                {
+                    "src": "./img/project/Openhub/5.png",
+                    "subject": "",
+                    "description": ""
+                },
+                {
+                    "src": "./img/project/Openhub/6.png",
+                    "subject": "",
+                    "description": ""
+                }
+            ]
+        },
+        {
             "title": "UniFlea",
             "sdate": "October 2022",
             "edate": "January 2023",
@@ -96,7 +139,7 @@
         {
             "title": "MapTest",
             "sdate": "Sep 2021",
-            "edate": "October 2021",
+            "edate": "Sep 2021",
             "description": "A self-taught android application that assists the users in daily life which help user to record their map searching record into the local storage.",
             "responsible": [
                 "Implement mobile development on Android Studio with Java and use SQLite as local database.",
