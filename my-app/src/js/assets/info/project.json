@@ -1,6 +1,63 @@
 {
     "project": [
         {
+            "title": "Education Management System (EMS)",
+            "sdate": "Aug 2024",
+            "edate": "Nov 2024",
+            "description": "An Education Management System (EMS) designed to streamline the educational workflow of university courses. This EMS centralizes key functionalities, including quiz assessments, an agile project management system, and a group assessment system. It enables students to collaborate on software projects for their clients while managing all their interactions and evaluations within the platform.",
+            "responsible": [
+                "Role: Project Manager, UI/UX Designer, Full Stack Developer",
+                "Managing a freelance project and execute end-to-end development using the MERN stack for full-stack implementation.",
+                "Managed module development on Jira, coordinating with team members, and providing guidance.",
+                "Design the UI/UX of the web application using Figma and implement the design on the frontend.",
+                "Develop the backend system using Node.js, Express.js, and MongoDB.",
+                "Implement bulk data processing using BullMQ and Redis for the student registration system.",
+                "Tech Stack: MongoDB, Express.js, React.js, Node.js, Typescript, Docker, Figma, Jira, PlantUML, BullMQ, Redis"
+            ],
+            "image": [
+                {
+                    "src": "./img/project/Gamification/1.png",
+                    "subject": "",
+                    "description": ""
+                },
+                {
+                    "src": "./img/project/Gamification/2.png",
+                    "subject": "",
+                    "description": ""
+                },
+                {
+                    "src": "./img/project/Gamification/3.png",
+                    "subject": "",
+                    "description": ""
+                },
+                {
+                    "src": "./img/project/Gamification/4.png",
+                    "subject": "",
+                    "description": ""
+                },
+                {
+                    "src": "./img/project/Gamification/5.png",
+                    "subject": "",
+                    "description": ""
+                },
+                {
+                    "src": "./img/project/Gamification/6.png",
+                    "subject": "",
+                    "description": ""
+                },
+                {
+                    "src": "./img/project/Gamification/7.png",
+                    "subject": "",
+                    "description": ""
+                },
+                {
+                    "src": "./img/project/Gamification/8.png",
+                    "subject": "",
+                    "description": ""
+                }
+            ]
+        },
+        {
             "title": "The AI-Enhanced Fish Recognition for eNelayan Marketplace Platform",
             "sdate": "Nov 2023",
             "edate": "June 2024",
