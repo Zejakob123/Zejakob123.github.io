@@ -81,6 +81,7 @@ function CarouselInner({ imgPaths, carouselID }) {
                     right: "10px",
                     paddingTop: 0,
                     zIndex: 10, // Ensure the button is above the image
+                    height: 'fit-content',
                 }}>
                     <button
                         className="btn btn-secondary rounded-circle d-flex justify-content-center align-items-center"
