@@ -1,4 +1,8 @@
 import projectData from "../../assets/info/project.json";
+import { useState } from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faSearchPlus } from '@fortawesome/free-solid-svg-icons'; // Import the Zoom In icon
+
 
 function PaginationButton({ carouselID, numOfImg }) {
     console.log("paginationButton:carouselID=" + carouselID + ";numOfImg=" + numOfImg);
@@ -21,23 +25,88 @@ function PaginationButton({ carouselID, numOfImg }) {
     );
 }
 
-function CarouselInner({ imgPaths, carouselID }) {
-    console.log("CarouselInner:imgPaths=" + imgPaths + ";carouselID=" + carouselID);
+function ZoomModal({ isOpen, imgSrc, onClose }) {
+    if (!isOpen) return null;
 
+    return (
+        <div
+            className="zoom-modal"
+            style={{
+                position: "fixed",
+                top: 0,
+                left: 0,
+                width: "100vw",
+                height: "100vh",
+                backgroundColor: "rgba(0, 0, 0, 0.8)",
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                zIndex: 1050,
+            }}
+            onClick={onClose}
+        >
+            <img
+                src={imgSrc}
+                alt="Zoomed"
+                style={{
+                    maxWidth: "90%",
+                    maxHeight: "90%",
+                    boxShadow: "0px 0px 15px rgba(255, 255, 255, 0.5)",
+                }}
+                onClick={(e) => e.stopPropagation()} // Prevent closing the modal when clicking the image
+            />
+        </div>
+    );
+}
+
+
+function CarouselInner({ imgPaths, carouselID }) {
+    const [zoomedImage, setZoomedImage] = useState(null);
+
+    const handleZoom = (src) => {
+        setZoomedImage(src);
+    };
+
+    const handleCloseZoom = () => {
+        setZoomedImage(null);
+    };
     const carouselItems = imgPaths.map((path, index) => {
         return (
             <div className={"carousel-item" + (index === 0 ? " active" : "")}>
 
                 <img className="d-block w-100 img-thumbnail" src={path.src} alt={"img-" + carouselID + "-" + index} />
-                <div className="carousel-caption d-none d-md-block"></div>
+                <div className="carousel-caption d-flex flex-row justify-content-end pr-3" style={{
+                    position: "absolute",
+                    top: "10px",
+                    right: "10px",
+                    paddingTop: 0,
+                    zIndex: 10, // Ensure the button is above the image
+                }}>
+                    <button
+                        className="btn btn-secondary rounded-circle d-flex justify-content-center align-items-center"
+                        style={{
+                            width: "40px", // Ensures the button is circular
+                            height: "40px",
+                            padding: "0",
+                            fontSize: "16px", // Adjust icon size
+                            opacity: 0.8, // Slightly transparent
+                        }}
+                        onClick={() => handleZoom(path.src)}
+                    >
+                        <FontAwesomeIcon icon={faSearchPlus} />
+                    </button>
+                </div>
             </div>
         );
     });
 
     return (
-        <div className="carousel-inner">
-            {carouselItems}
-        </div>
+        <>
+            <div className="carousel-inner">
+                {carouselItems}
+            </div>
+            <ZoomModal isOpen={!!zoomedImage} imgSrc={zoomedImage} onClose={handleCloseZoom} />
+        </>
     );
 }
 
